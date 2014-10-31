@@ -1,0 +1,29 @@
+My Functions #4: Spy
+
+Basically spy is an infinite loop telling the user whether or not there has been a change to that directory.
+The function will sleep for 45 seconds, giving the user or program time to make changes to that directory.
+If changes have occurred, the function will print out a statement saying "A change has occurred to this directory". It does this by recalculating the last modified time for each file/directory in that directory.
+
+
+Image Functions #9: Random pixels
+
+It creates a new image with the width and height provided by the user. For every column and row in that image, the functionwill generate a random coloured pixel and set it in the image. The random coloured pixel will be made up of 3 randomly generated rgb values ranging from 0 to 255.
+
+
+Image Functions #10: Sorted pixels
+
+Loads an image, and creates a new image with the width and height provided by the user. From the loaded image, the function gets all the pixels and creates a list of lists. The list of lists then is sorted by python list sort. It is then place on the new image with a forloop. The resulting image will resemble a waterfall with different colours ranging from green to white.
+
+
+Image Functions #11: Pattern
+
+Loads an image and creates a new image with the width and height of the hypoteneus of the loaded image. Within two forloops, the function will convert the coordinates of the loaded image to cartesian plane coordinates, rotate the pixel 60 degrees (of course 60 degrees is converted to radians) on the cartesian plane. It will then recalculate the coordinates of rotated pixel and convert it back to coordinates of the new image.
+
+NOTE: Because the function uses the int-version of a number, the image will come out with missing pixels (white pixles) since two or more pixels of the original may have had the same positions in the new image. This is a result of trying to find where the pixels of the original would go in the new image. This function has the same characterics as the rotation function but with white pixels inside the image.
+
+
+Image Functions #12: Rotations
+
+Loads an image and creates a new image with the width and height of the hypoteneus of the loaded image. Within two forloops, the function will convert the coordinates of the loaded image to cartesian plane coordinates, rotate the pixel x-degrees (of course x-degrees is converted to radians) on the cartesian plane. It will then recalculate the coordinates of rotated pixel and convert it back to coordinates of the new image.
+
+NOTE: Because the function uses the int-version of a number, when the user inputs 90, 180, 270 the resulting image will have a small deformed corner. This function gets the pixel at the newly created image, rotates it backwards x-degrees and finds the pixel in the original that will occupy the position in the new image. Thus taking away the missing pixels.
