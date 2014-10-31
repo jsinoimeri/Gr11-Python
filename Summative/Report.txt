@@ -1,0 +1,19 @@
+
+
+Our program is basically an atm machine with some added twists where it allows the administrators to add accounts. The prgram allows the users to deposit and/or widthdraw money from their account. The first menu is the "welcome" screen while the second menu is the consumer screen where he or she is allowed to do whatever they wish with their money.
+
+Consumer:
+If you want to login as a consumer, open the database.txt file. Passwords and account info in the .txt file
+
+Admin:
+If the user says he or she is an admin, then they will have to log in as an admin with the password as 5555. The admin is the only one who can add accounts.
+After the admin is finished the database is created again from scratch but with the new accounts already in it.
+
+Problems:
+
+Jeton: - search on some lists would not work, can't seem to fix it
+       - when reading from the file, birthdays were not handled properly, they ahd a space in front and behind the last character
+       - the search for birthdays kept coming invalid
+
+Rej:
+

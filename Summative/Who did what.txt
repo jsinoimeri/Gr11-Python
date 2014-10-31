@@ -1,0 +1,15 @@
+Rej: - database_generator.py, database, administrator, tried to fix search but could not.
+
+
+
+CONTRIBUTION: 50%
+
+
+
+
+
+Jeton: - read from file, all of first and second menus, forgotten password, search
+
+
+
+CONTRIBUTION: 50%
